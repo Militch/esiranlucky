@@ -12,9 +12,9 @@ define('WX_MP_APPSECRET', '961e375148ce39a56b7af1aa551e329a');
 $database = new Medoo([
     'database_type' => 'mysql',
     'database_name' => 'esiranlucky',
-    'server' => '188.188.188.254',
+    'server' => '8.134.53.9',
     'username' => 'root',
-    'password' => 'ruixiao123'
+    'password' => 'admin888'
 ]);
 function geturl($url) {
     $headerArray = [

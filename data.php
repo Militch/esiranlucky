@@ -13,9 +13,9 @@ $end = isset($end)?$end:'0';
 $database = new Medoo([
     'database_type' => 'mysql',
     'database_name' => 'esiranlucky',
-    'server' => '188.188.188.254',
+    'server' => '8.134.53.9',
     'username' => 'root',
-    'password' => 'ruixiao123'
+    'password' => 'admin888'
 ]);
 
 $data = $database->select("esiranlucky_member", [
